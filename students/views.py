@@ -24,3 +24,6 @@ class StudentViewSet(ViewSet):
 
     def nigita(self, request):
         return Response({"message": "myname is nigita! i am from nepal"})
+
+    def naresh(self, request):
+        return Response({"message": "neresh is a good preson! he very curious person i love naresh"})
