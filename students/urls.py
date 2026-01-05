@@ -2,7 +2,7 @@ from django.urls import path
 from .views import StudentViewSet
 
 
-student_list = StudentViewSet.as_view({'get': 'list'})
+student_list = StudentViewSet.as_view({'get': 'get', 'post': 'store'})
 nigita_list = StudentViewSet.as_view({'get': 'naresh'})
 hari_list = StudentViewSet.as_view({'get': 'hari'})
 sapana_list = StudentViewSet.as_view({'get': 'sapana'})
